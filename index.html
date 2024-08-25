@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+           } 
+        </style>
+
+    </head>
+    <BODY style="background-color: #9c8dba;">
+        <h1 style="color: aliceblue;font-family: Verdana, Geneva, Tahoma, sans-serif;text-align: center;">GOVERNMENT SCHOOL</h1>
+        <h2 style="text-align: center;">
+            ADMISSION FORM
+        </h2>
+        <form style="padding:5%;font-size:160%">
+            <fieldset style="background-color: cornsilk;">
+                <legend>Personal Details</legend>
+
+
+            <label for="fname"><b>First name:</b></label>
+            <input type="text" id="fname" name="fname" placeholder="Capital letter" required><br>
+            <br>
+            <label for="lname"><b>Last name:</b></label>
+            <input type="text" id="lname" name="lname" placeholder="Capital letter" required><br>
+            <br>
+            <LABEL><b>Father's name:</b></LABEL>
+            <input type="text" placeholder="Capital letter"><br>
+            <br>
+            <label><b>Mother's name:</b></label>
+            <input type="text" placeholder="Capital letter"><br>
+            <br>
+            <label><b>Date of birth</b></label>
+            <input type="date" name="age" required><BR>
+            <br>
+            <label><b>GENDER</b></label>
+           <input type="radio" name="gender" value="male">male
+           <input type="radio" name="gender" value="Female">Female
+           <input type="radio" name="gender" value="others">Others<br>
+           <br>
+           <label><b>Religion</b></label>
+           <select name="Religion">
+            <option name="Religion" value="Islam">Islam</option>
+            <option name="Religion" value="Hinduism">Hinduism</option>
+            <option name="Religion" value="Buddhism">Buddhism</option>
+            <option name="Religion" value="Christianity">Christianity</option><br>
+           </select>
+           <br>
+           <label><b>E-mail</b></label>
+           <input type="email" NAME="E-mail" placeholder="Enter your E-mail" required><br>
+           <br>
+           <label><b>Contact number</b></label>
+           <input type="text" name="phn" placeholder="Enter your Phone number"><br>
+           <br>
+           <label><b>Present Address</b></label>
+           <input type="text" name="Present Address"><br>
+           <br>
+           <label><b>Permanent Address</b></label>
+           <input type="text" name="Permanent Address"><br>
+           <br>
+        </fieldset>
+        <fieldset style="background-color: azure;">
+            <legend>Academic Details</legend>
+
+            <label><b>Form No:</b></label>
+            <input type="number" name="Form number" size="20"><br>
+            <br>
+            <label><b>Applicant Id':</b></label>
+            <input type="text" name="Id"><br>
+            <br>
+            <label><b>Class you want to apply for:</b></label><br>
+            <input type="text" name="Desired Class"><br>
+            <br>
+            <label><b>Former Class Result:</b></label><br>
+            50<input type="range" name="Result" min="50" max="100">100<br>
+            <br>
+    
+            <table style="width: 100%;">
+                <caption><b>Academic Record</b></caption>
+                <tr>
+                    <th>Exam Passed</th>
+                    <th>Name Of the Institute</th>
+                    <th>Passing Year</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="passed exam">
+                    </td>
+                    <td>
+                        <input type="text" name="institution"></td>
+                        <td>
+                            <input type="number" name="Year"></td>
+                            <td>
+                                <input type="text" name="Grade">
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="passed exam">
+                    </td>
+                    <td>
+                        <input type="text" name="institution"></td>
+                        <td>
+                            <input type="number" name="Year"></td>
+                            <td>
+                                <input type="text" name="Grade">
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="passed exam">
+                    </td>
+                    <td>
+                        <input type="text" name="institution"></td>
+                        <td>
+                            <input type="number" name="Year"></td>
+                            <td>
+                                <input type="text" name="Grade">
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="passed exam">
+                    </td>
+                    <td>
+                        <input type="text" name="institution"></td>
+                        <td>
+                            <input type="number" name="Year"></td>
+                            <td>
+                                <input type="text" name="Grade">
+                        </td>
+                </tr>
+            </table>
+
+        </fieldset><br>
+        <label><b>About Yourself:</b></label>
+        <textarea name="about" rows="15" cols="55" placeholder="Write minimum 200 words"></textarea><br>
+        <br>
+        <label><b>Extracurricular Activities</b></label>
+        <input list="d01" naME="Activities">
+        <datalist id="d01">
+            <option value="Marshial Art"></option>
+            <option value="Sports"></option>
+            <option value="Debate"></option>
+            <option value="Music"></option>
+            <option value="Music"></option>
+        </datalist><br>
+        <br>
+        <label><b>PHOTO</b></label>
+        <input type="file" name="photo"><br>
+        <br>
+        <input type="submit" name="submit" value="SUBMIT"> 
+
+          
+    
+        </form>
+    </BODY>
+</html>
